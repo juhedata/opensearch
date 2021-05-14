@@ -19,10 +19,8 @@
   },
   "autoload": {
     "psr-4": {
-      "OpenSearch\\Client\\": "src/Client",
-      "OpenSearch\\Generated\\": "src/Generated",
-      "OpenSearch\\Util\\": "src/Util",
-      "Thrift": "src/Thrift"
+      "OpenSearch\\": "src/OpenSearch",
+      "Thrift\\": "src/Thrift"
     }
   },
   "minimum-stability": "stable"
