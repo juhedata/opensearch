@@ -1,6 +1,6 @@
 {
   "name": "juhedata/open-search",
-  "description": "Adds CAS php 5.4+",
+  "description": "alibaba opensearch php 5.6+",
   "keywords": [
     "alibaba opensearch"
   ],
