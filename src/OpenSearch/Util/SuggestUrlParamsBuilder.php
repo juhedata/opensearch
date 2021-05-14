@@ -69,7 +69,7 @@ class SuggestUrlParamsBuilder
     public function initReSearch($suggestParams)
     {
         if (isset($suggestParams->reSearch)) {
-            $enumString = ReSearch::$__names[$suggestParams->reSearch]??null;
+            $enumString = ReSearch::$__names[$suggestParams->reSearch]?:null;
             if ($enumString) {
                 $this->params[Constant::get('PARAM_RE_SEARCH')] = strtolower($enumString);
             }
