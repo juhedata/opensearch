@@ -1,0 +1,29 @@
+{
+  "name": "juhedata/open-search",
+  "description": "Adds CAS php 5.4+",
+  "keywords": [
+    "open search support"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "juhedata",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.0|^6.0|^7.0|^8.0|^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpenSearch\\Client\\": "src/Client",
+      "OpenSearch\\Generated\\": "src/Generated",
+      "OpenSearch\\Util\\": "src/Util",
+      "Thrift": "src/Thrift"
+    }
+  },
+  "minimum-stability": "stable"
+}
